@@ -9,7 +9,6 @@ window.addEventListener('beforeinstallprompt', (event) => {
 
 // TODO: Implement a click event handler on the `butInstall` element
 butInstall.addEventListener('click', async () => {
-    
     const eventy = window.defferedPrompt;
 
     if(!eventy) {
@@ -27,5 +26,5 @@ butInstall.addEventListener('click', async () => {
 window.addEventListener('appinstalled', (event) => {
 
     window.defferedPrompt = null;
-
+    butInstall.classList.toggle('hidden', true);
 });
