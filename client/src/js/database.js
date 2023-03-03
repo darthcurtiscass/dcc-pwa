@@ -31,7 +31,7 @@ export const getDb = async () => {
   const req = store.getAll();
   const allContent = await req;
   console.log('allContent.value', allContent)
-  return allContent[allContent.length-1].jate;
+  return allContent[allContent.length-1].content;
 }
 
 initdb();

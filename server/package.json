@@ -1,13 +1,14 @@
 {
     "name": "jate",
     "version": "1.0.0",
-    "description": "text editor",
+    "description": "",
     "main": "server.js",
     "scripts": {
-        "server": "nodemon server.js --ignore client"
+        "server": "nodemon server.js --ignore client",
+        "start" : "node server.js"
     },
     "keywords": [],
-    "author": "darthcurtiscass",
+    "author": "",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"

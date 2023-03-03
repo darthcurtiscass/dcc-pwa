@@ -2,9 +2,6 @@
   "name": "jate",
   "version": "1.0.0",
   "description": "text editor",
-  "engines": {
-    "node": "19.6.0"
-  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
