@@ -1,2 +1,1 @@
-# dcc-pwa
-progressive text editing app
+# Text Editor Starter Code
