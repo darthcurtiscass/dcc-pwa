@@ -31,8 +31,11 @@ export const getDb = async () => {
   const store = trans.objectStore('jate');
   const req = store.getAll();
   const allContent = await req;
-  console.log('allContent.value', allContent)
-  return header;
+  const contentArray = allContent.map((content) => content.jate)
+  // const data = allContent.map((content) => c
+  // allContent.forEach((content) => console.log(content.jate))
+  console.log('allContent.value', contentArray)
+  return header + contentArray;
 }
 
 initdb();
