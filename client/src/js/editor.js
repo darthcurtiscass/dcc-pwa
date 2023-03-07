@@ -38,6 +38,7 @@ export default class {
     this.editor.on('blur', () => {
       console.log('The editor has lost focus');
       putDb(localStorage.getItem('content'));
+      
     });
   }
 }
