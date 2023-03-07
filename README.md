@@ -1,5 +1,10 @@
 # DCC-PWA Text Editor
 
+![](client/src/images/JATE.png)
+
+## Link to Deployed Application
+https://dcc-pwa.herokuapp.com/
+
 ## Table of Contents: 
 [Description](#description)
 
